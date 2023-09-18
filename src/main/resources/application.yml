@@ -12,7 +12,7 @@ spring:
       max-request-size: 1000MB
 oss:
   qiniu:
-    domain: http://cdn.emotionalbug.top
-    accessKey: bae19QgDWC33GFhS5GQvGJxZbuw1SL5w8Ymt_mIF
-    secretKey: Vkp-7V8xAR6EoRVSPmhc2TtSlD3pzP6NA9ZrqMP0
-    bucketName: hjbsport
+    domain:
+    accessKey:
+    secretKey:
+    bucketName:
