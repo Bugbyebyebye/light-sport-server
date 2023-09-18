@@ -1,1 +1,18 @@
-
+server:
+  port: 8000
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://8.130.84.188:3306/sport?userUniCode=true&characterEncoding=utf-8
+    username: root
+    password: root
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 1000MB
+oss:
+  qiniu:
+    domain: http://cdn.emotionalbug.top
+    accessKey: bae19QgDWC33GFhS5GQvGJxZbuw1SL5w8Ymt_mIF
+    secretKey: Vkp-7V8xAR6EoRVSPmhc2TtSlD3pzP6NA9ZrqMP0
+    bucketName: hjbsport
